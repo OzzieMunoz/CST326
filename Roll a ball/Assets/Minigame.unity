@@ -3037,7 +3037,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
   player: {fileID: 348275128}
-  aggroDistance: 10
 --- !u!195 &393527192
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -3107,7 +3106,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
   player: {fileID: 348275128}
-  aggroDistance: 10
 --- !u!195 &398711233
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -3177,7 +3175,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
   player: {fileID: 348275128}
-  aggroDistance: 10
 --- !u!195 &422003507
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -3471,7 +3468,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
   player: {fileID: 348275128}
-  aggroDistance: 10
 --- !u!195 &444363238
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -4289,7 +4285,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
   player: {fileID: 348275128}
-  aggroDistance: 10
 --- !u!195 &526306714
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -5058,7 +5053,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
   player: {fileID: 348275128}
-  aggroDistance: 10
 --- !u!195 &593044824
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -5336,7 +5330,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
   player: {fileID: 348275128}
-  aggroDistance: 10
 --- !u!195 &632252412
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -5646,7 +5639,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
   player: {fileID: 348275128}
-  aggroDistance: 10
 --- !u!195 &677753847
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -6454,7 +6446,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
   player: {fileID: 348275128}
-  aggroDistance: 10
 --- !u!195 &791298140
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -6524,7 +6515,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
   player: {fileID: 348275128}
-  aggroDistance: 10
 --- !u!195 &795262175
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -8233,7 +8223,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
   player: {fileID: 348275128}
-  aggroDistance: 10
 --- !u!195 &954133809
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -8561,7 +8550,7 @@ Transform:
   m_GameObject: {fileID: 961739749}
   serializedVersion: 2
   m_LocalRotation: {x: 0.38268343, y: -0, z: -0, w: 0.92387956}
-  m_LocalPosition: {x: 0, y: 15, z: -15}
+  m_LocalPosition: {x: 0, y: 10, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8851,7 +8840,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
   player: {fileID: 348275128}
-  aggroDistance: 10
 --- !u!195 &988382285
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -10652,7 +10640,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
   player: {fileID: 348275128}
-  aggroDistance: 10
 --- !u!195 &1231764597
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -11889,7 +11876,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
   player: {fileID: 348275128}
-  aggroDistance: 10
 --- !u!195 &1466796155
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -12295,7 +12281,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
   player: {fileID: 348275128}
-  aggroDistance: 10
 --- !u!195 &1536598594
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -12802,7 +12787,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
   player: {fileID: 348275128}
-  aggroDistance: 10
 --- !u!195 &1572187834
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -13737,7 +13721,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
   player: {fileID: 348275128}
-  aggroDistance: 10
 --- !u!195 &1669425357
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -13921,7 +13904,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
   player: {fileID: 348275128}
-  aggroDistance: 10
 --- !u!195 &1687862165
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -14439,7 +14421,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
   player: {fileID: 348275128}
-  aggroDistance: 10
 --- !u!195 &1767480991
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -16682,7 +16663,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
   player: {fileID: 348275128}
-  aggroDistance: 10
 --- !u!195 &2038345584
 NavMeshAgent:
   m_ObjectHideFlags: 0
