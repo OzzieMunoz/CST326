@@ -7,15 +7,18 @@ public class BallController : MonoBehaviour
     public float hitStrength = 0.9f;
 
     public CameraShake cameraShake;
-
+    
+    public AudioClip paddleHitClip;
+    private AudioSource audioSource;
     private Rigidbody rb;
+    
     private float currentSpeed;
-
     private bool lastScoredOnRight = true;
 
     void Awake()
     {
         rb = GetComponent<Rigidbody>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Start()
@@ -45,8 +48,15 @@ public class BallController : MonoBehaviour
         if (!collision.gameObject.CompareTag("Paddle"))
             return;
 
-        cameraShake.Shake(0.12f, 0.10f);
+        cameraShake.Shake(0.25f, 0.25f);
         currentSpeed += speedIncrease; 
+        
+        if (paddleHitClip != null && audioSource != null)
+        {
+            audioSource.pitch = currentSpeed / startSpeed;
+            audioSource.PlayOneShot(paddleHitClip);
+            audioSource.pitch = 1f;
+        }
         
         float xDir = 1f;
         if (collision.transform.position.x > 0f)
@@ -59,6 +69,22 @@ public class BallController : MonoBehaviour
         
         float zDir = Mathf.Clamp(zDiff * hitStrength, -1f, 1f);
         
+        Vector3 dir = new Vector3(xDir, 0f, zDir).normalized;
+        rb.linearVelocity = dir * currentSpeed;
+    }
+    public void AddSpeed(float amount)
+    {
+        currentSpeed += amount;
+
+        Vector3 dir = rb.linearVelocity.normalized;
+        rb.linearVelocity = dir * currentSpeed;
+    }
+
+    public void RandomizeDirection()
+    {
+        float xDir = Random.value < 0.5f ? -1f : 1f;
+        float zDir = Random.Range(-1f, 1f);
+
         Vector3 dir = new Vector3(xDir, 0f, zDir).normalized;
         rb.linearVelocity = dir * currentSpeed;
     }
